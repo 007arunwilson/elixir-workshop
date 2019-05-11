@@ -13,7 +13,13 @@ defmodule ElixirCards do
 
   """
   def createDeck do
-    ["Ace","Two","Three"]
+    values = ["Ace","Two","Three"]
+    suits = ["spades","clubs","hearts","diamonds"]
+
+    for suit <- suits do
+      suit
+    end
+
   end
 
   def shuffle(deck) do
