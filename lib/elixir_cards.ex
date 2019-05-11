@@ -13,6 +13,6 @@ defmodule ElixirCards do
 
   """
   def hello do
-    :world
+    "Hi There!"
   end
 end
