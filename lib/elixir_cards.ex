@@ -12,7 +12,13 @@ defmodule ElixirCards do
       :world
 
   """
-  def hello do
-    "Hi There!"
+  def createDeck do
+    ["Ace","Two","Three"]
   end
+
+  def shuffle(deck) do
+    Enum.shuffle(deck)  
+  end
+
+
 end
