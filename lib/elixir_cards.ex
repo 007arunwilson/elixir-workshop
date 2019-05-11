@@ -18,12 +18,9 @@ defmodule ElixirCards do
 
 
     ## Create dec, Solution No.1
-    for suit <- suits do
-      for value <- values do
+    for value <- values,suit <- suits do
         "#{value} of #{suit}"
-      end
     end
-    |>List.flatten
 
   end
 
