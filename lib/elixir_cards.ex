@@ -16,8 +16,12 @@ defmodule ElixirCards do
     values = ["Ace","Two","Three"]
     suits = ["spades","clubs","hearts","diamonds"]
 
+
+    ## Create dec, Solution No.1
     for suit <- suits do
-      suit
+      for value <- values do
+        "#{value} of #{suit}"
+      end
     end
 
   end
