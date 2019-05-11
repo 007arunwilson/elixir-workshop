@@ -23,6 +23,7 @@ defmodule ElixirCards do
         "#{value} of #{suit}"
       end
     end
+    |>List.flatten
 
   end
 
